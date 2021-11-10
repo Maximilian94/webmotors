@@ -1,0 +1,38 @@
+.forms-fields-box {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 20px;
+}
+
+.item {
+  border: 5px solid red;
+}
+
+.forms-fields-box .new-or-used {
+  grid-column: 1 / 13;
+}
+
+.forms-fields-box .location {
+  grid-column: 1 / 7;
+}
+
+.forms-fields-box .brand {
+  grid-column: 7 / 10;
+}
+
+.forms-fields-box .model {
+  grid-column: 10 / 13;
+}
+
+.forms-fields-box .year {
+  grid-column: 1 / 4;
+}
+
+.forms-fields-box .price {
+  grid-column: 4 / 7;
+}
+
+.forms-fields-box .version {
+  grid-column: 7 / 13;
+}

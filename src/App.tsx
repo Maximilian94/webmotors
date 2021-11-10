@@ -7,12 +7,14 @@ import Header from './components/Header/Header';
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Search />} />
-      </Routes>
-    </Router>
+    <div className="web-page">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Search />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
