@@ -21,6 +21,7 @@ const SearchHeader: React.FC = () => {
       <label
         htmlFor={name}
         className={`car-type-button-option ${type === name ? 'checked' : null}`}
+        key={name}
       >
         <input
           type="radio"
@@ -30,7 +31,7 @@ const SearchHeader: React.FC = () => {
           onChange={() => handleChange(name)}
         />
         <img src={imageUrl} alt={name} />
-        <div className="car-type-button-option-details">
+        <div className="car-type-button-option-details" key={name}>
           <span>Comprar</span>
           <span>{name}</span>
         </div>
