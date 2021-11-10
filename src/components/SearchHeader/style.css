@@ -1,0 +1,44 @@
+.car-type-button-options {
+  display: flex;
+}
+
+.car-type-button-option {
+  display: flex;
+  color: #94949e;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #94949e;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.teste {
+  display: none;
+}
+
+.car-type-button-option.checked {
+  color: #f3123c;
+  border-bottom: 3px solid #f3123c;
+}
+
+.car-type-button-option img {
+  height: 2.5rem;
+  padding: 0 10px;
+}
+
+.car-type-button-option-details {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  align-items: flex-start;
+}
+
+.car-type-button-option-details span:first-child {
+  color: #94949e;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}

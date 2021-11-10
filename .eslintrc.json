@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
   "extends": [
     "plugin:react/recommended",
@@ -42,7 +43,8 @@
       }
     ],
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"]
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }]
   },
   "settings": {
     "import/resolver": {
